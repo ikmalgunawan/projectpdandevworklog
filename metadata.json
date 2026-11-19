@@ -1,0 +1,10 @@
+{
+  "name": "PD & ANDEV WORKLOG",
+  "description": "Enterprise Pharmaceutical Product Development & Analytical Development Worklog Management System with Mobile Logging, Management Dashboard, ERP Integration Layer, and Excel/PDF Reporting.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
