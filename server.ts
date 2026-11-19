@@ -829,7 +829,7 @@ app.put('/api/users/:id', authMiddleware, (req: AuthedRequest, res) => {
 
 // --- SERVER STARTUP ---
 async function startServer() {
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
   if (process.env.NODE_ENV !== 'production') {
     const vite = await createViteServer({
       server: { middlewareMode: true },
